@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="ssh://git@git.zhkj-rd.cn"/>
+  
+  <default remote="origin" revision="master" sync-j="6"/>
+
+  <!-- MTK SDK-->
+  <project name="enterprise_gateway/mediatek.git" path="source" revision="CMCC_MARKET_2023" upstream="CMCC_MARKET_2023" groups="enterprise_gateway"/>
+ 
+  <!-- starnet -->
+  <project name="enterprise_gateway/starnet.git" path="source/starnet" revision="CMCC_MARKET_2023" upstream="CMCC_MARKET_2023" groups="enterprise_gateway"/>
+
+  <!-- starnet_plan -->
+  <project name="enterprise_gateway/starnet_plan.git" path="source/apps/private/starnet_plan" revision="CMCC_MARKET_2023" upstream="CMCC_MARKET_2023" groups="enterprise_gateway"/>
+
+  <!-- webpage -->
+  <project name="enterprise_gateway/web.git" path="source/starnet/userspace/private/apps/webpages" revision="CMCC_MARKET_2023" upstream="CMCC_MARKET_2023" groups="enterprise_gateway"/>
+</manifest>
